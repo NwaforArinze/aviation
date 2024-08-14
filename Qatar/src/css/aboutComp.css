@@ -1,0 +1,23 @@
+img {
+    height: 60vh;
+    width: 30vw;
+}
+
+.about-overall {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../src/images/imageFour.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 70vw;
+        height: 50vh;
+        margin: 0 auto 20px;
+    }
+}
