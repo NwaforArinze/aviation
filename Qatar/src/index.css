@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 450px) {
+  .service-container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .contact-container {
+    flex-wrap: wrap;
+    margin: -20px 50px;
+  }
+
+  .coloured {
+    margin-top: -70px;
+    background-color: red;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+}
+
+coloured {
+  height: 30vh;
+  width: 40vw;
+}
+
+.white {
+  height: 30vh;
+  width: 60vw;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  color: White;
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
