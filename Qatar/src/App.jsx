@@ -6,6 +6,7 @@ import About from "./pages/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Error from "./pages/Error";
 const App = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<h2>Page Not Found</h2>} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </Router>
       <Footer />
